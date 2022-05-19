@@ -9,9 +9,12 @@ type Square struct {
 	a     uint
 }
 
-// func (s *Square) End() Point {
-// 	// implement me
-// }
+func (s *Square) End() {
+	// implement me
+
+	// return s.start.y
+
+}
 
 func (s *Square) Area() uint {
 	// implement me
